@@ -41,27 +41,3 @@ results in everything in file 2 that is not in file 1
 
 (source here)[https://github.com/jgarff/rpi_ws281x]
 
-
-## dependencies
-
-##### rdepends
-Installing .deb packages and their dependencies
-sudo apt install apt-rdepends
-apt-rdepends <package>|grep -v "^ " 	//lists the dependencies of the package
-apt-get download $(apt-rdepends <package>|grep -v "^ " |grep -v "^libc-dev$")
-
-##### install dependencies for pip python
-A Similiar thing to rdepends can be done for python-pip packages
-If you want to install a bunch of dependencies from, say a requirements.txt, you would do:
-
-mkdir dependencies
-pip download -r requirements.txt -d "./dependencies"
-tar cvfz dependencies.tar.gz dependencies
-
-And, once you transfer the dependencies.tar.gz to the machine which does not have internet you can
-```bash
-tar zxvf dependencies.tar.gz
-cd dependencies
-pip install * -f ./ --no-index
-```
-
