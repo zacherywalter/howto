@@ -28,6 +28,12 @@ Put that file in ~/.local/share/applications
 
 Note: The AppImage file name doesn't have to have .AppImage; the system will know what it is. If the icon isn't displayed, the icon theme you're using is missing the file org.inkscape.Inkscape. You can also edit the desktop launcher to use whatever icon is provided by the icon theme.
 
+##### make .desktop file trusted
+(here)[https://forum.xfce.org/viewtopic.php?id=16357]
+it needs to be marked executable: `chmod +x FILE`
+it needs to have an xfce-exe-checksum metadata entry created for the file:
+`f=FILE; gio set -t string $f metadata::xfce-exe-checksum "$(sha256sum $f | awk '{print $1}')"`
+
 ## dependencies
 
 ##### rdepends
