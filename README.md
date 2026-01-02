@@ -9,3 +9,9 @@ A personal collection of instructions for general and specific configuring
 - ssh.md
 - network.md
 - tmux.md
+
+
+##### add ssh config to the end of ~/.ssh/config file
+'''bash
+cat ssh_config >> ~.ssh/config
+'''
