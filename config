@@ -1,0 +1,15 @@
+# zacheryservers zs
+Host zs-en 
+	Hostname zacheryserver-en
+	User zachery
+	# Port 22
+	# IdentityFile ~/.ssh/..
+
+Host zs-de
+	Hostname zacheryserver-de
+	User zachery
+
+Host zs
+	Hostname zacheryserver
+	User zachery
+
