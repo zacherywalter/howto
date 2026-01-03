@@ -41,3 +41,12 @@ results in everything in file 2 that is not in file 1
 
 (source here)[https://github.com/jgarff/rpi_ws281x]
 
+##### find text in files across multiple files
+and display the files they're in
+
+```bash
+grep -rnw 'where/to/look' -e 'what_to_look_for'
+```
+shift hashtag on german keyboard ' apostrophe is optional
+
+[from here](https://stackoverflow.com/questions/16956810/find-all-files-containing-a-specific-text-string-on-linux)
