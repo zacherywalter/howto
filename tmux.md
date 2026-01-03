@@ -1,4 +1,6 @@
 # tmux.md
+nice tutorial [here](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) and [tmux cheatsheet](https://tmuxcheatsheet.com/)
+
 list tmux windows
 ```bash
 tmux ls
@@ -20,7 +22,9 @@ tmux a
 tmux a -t [name]
 ```
 
-Detach from session shortcut: Ctrl+B then D
+##### keyboard shortcuts
+Detach from session shortcut: Ctrl+B then D (lowercase d)
+Switch sessions: Ctrl+B then S (then vim jk for up down)
 
 
 
