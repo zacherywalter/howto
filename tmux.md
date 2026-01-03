@@ -1,4 +1,30 @@
-# using screen. learn TMUX!
+# tmux.md
+list tmux windows
+```bash
+tmux ls
+```
+
+start new screen with name
+```bash
+tmux new -s [name]
+```
+
+attach to:
+-last used session
+```bash
+tmux a
+```
+
+-existing session by name
+```bash
+tmux a -t [name]
+```
+
+Detach from session shortcut: Ctrl+B then D
+
+
+
+# using screen
 starting a program in crontab in a screen environment
 ```bash
 @ reboot sleep 15 && sudo screen -S clickScreen sudo click --dpdk -- /home/ubuntu/click/Demonstrator.c    lick
