@@ -17,10 +17,12 @@ sudo netstat -tulpn tells you which ports are open on the computer that you are 
 
 
 ip neighbour shows neighbors to the computer? arp -a is same result
-route -n shows the kernel IP routing table
-ip route show does something similar i think
+`route -n` shows the kernel IP routing table
+`ip route` show does something similar i think
 (tcp-ip_routing)[https://www.ibm.com/docs/en/aix/7.3.0?topic=protocol-tcpip-routing]
-"A route defines a path for sending packets through the Internet network to an address on another netw    ork. Defines a gateway that can forward packets to a specific host on another network. Defines a gatew    ay that can forward packets to any of the hosts on a specific network."
+"A route defines a path for sending packets through the Internet network to an address on another network.
+Defines a gateway that can forward packets to a specific host on another network.
+Defines a gateway that can forward packets to any of the hosts on a specific network."
 
 Tunnelling:
 https://wiki.linuxfoundation.org/networking/tunneling
