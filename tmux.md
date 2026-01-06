@@ -1,5 +1,6 @@
 # tmux.md
 nice tutorial [here](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) and [tmux cheatsheet](https://tmuxcheatsheet.com/)
+for :commands first press Ctrl-B the :command
 
 list tmux windows
 ```bash
@@ -22,11 +23,12 @@ tmux a
 tmux a -t [name]
 ```
 
-##### keyboard shortcuts
+# keyboard shortcuts
 Detach from session shortcut: Ctrl+B then D (lowercase d)
 Switch sessions: Ctrl+B then S (then vim jk for up down)
 
-
+##### scrolling
+enter copy-mode: Ctrl+B then [
 
 # using screen
 starting a program in crontab in a screen environment

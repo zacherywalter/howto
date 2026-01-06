@@ -50,3 +50,14 @@ grep -rnw 'where/to/look' -e 'what_to_look_for'
 shift hashtag on german keyboard ' apostrophe is optional
 
 [from here](https://stackoverflow.com/questions/16956810/find-all-files-containing-a-specific-text-string-on-linux)
+
+##### Storage related comands
+fdisk for seeing partitions (l for list)
+```bash
+sudo fdisk -l
+```
+
+see free/used space and mount position of partitions with 
+```bash
+df -h
+```
