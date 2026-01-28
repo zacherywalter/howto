@@ -1,6 +1,15 @@
 # dosomelinux
 Miscellaneous Linux Comands that can sometimes be handy
 
+## BREW
+[brew.sh](brew.sh)
+install
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
+
+
+## ubuntu release
+`lsb_release -a`
+
 ## Basics
 `cat <FILE>` prints out a file in terminal
 
@@ -53,11 +62,15 @@ shift hashtag on german keyboard ' apostrophe is optional
 
 ##### Storage related comands
 fdisk for seeing partitions (l for list)
-```bash
-sudo fdisk -l
-```
+`sudo fdisk -l`
 
 see free/used space and mount position of partitions with 
-```bash
-df -h
-```
+`df -h`
+
+see ram storage space
+`free -h` human readable format
+
+##### Rclone
+instructions [here](https://ucr-research-computing.github.io/Knowledge_Base/how_to_mount_google_drive.html)
+`curl https://rclone.org/install.sh | sudo bash`
+
