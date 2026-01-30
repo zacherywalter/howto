@@ -1,15 +1,21 @@
 # howto
-A personal collection of instructions for general and specific configuring
+My personal collection of instructions for general and specific configuring.
+Goto File with curser then press gf to goto file. Ctrl+o to retrun.
 
 ##### howto file list as of 11.12.2025
-- README.md           -- This file
-- vim.md
-- dosomelinux.md      -- Miscellaneous bash
-- git.m               
-- ssh.md
-- network.md
-- tmux.md
-
+- [README.md]
+- [dosomelinux.md]
+- [fonts.md]
+- [git.md]
+- [gnome.md]
+- [install.md]
+- [latex.md]
+- [neovim_setup.md]
+- [network.md]
+- [ssh_config]
+- [ssh.md]
+- [tmux.md]
+- [vim.md]
 
 ##### add ssh config to the end of ~/.ssh/config file
 '''bash

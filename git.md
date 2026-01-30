@@ -1,5 +1,5 @@
 # git
-Using Git: from https://phoenixnap.com/kb/how-to-use-git
+Using Git: from [phoenixnap](https://phoenixnap.com/kb/how-to-use-git)
 sudo git init [reposiory name] //creates a local repository in the current directory
 sudo git remote add origin https://github.com/zacherywalter/crispy-train.git //the origin of the local     repository can be set to a repository on github
 git add train-list.txt //add a file to be tracked

@@ -1,6 +1,16 @@
 # dosomelinux
 Miscellaneous Linux Comands that can sometimes be handy
 
+## RUST
+rust toolchain with [rustup](https://rust-lang.org/tools/install/)
+install with
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
+## HASKELL via GHCup
+[install here](https://www.haskell.org/ghcup/)
+`curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh`
+now you can `cargo install ...`
+
 ## BREW
 [brew.sh](brew.sh)
 install
