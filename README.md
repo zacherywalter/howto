@@ -12,10 +12,14 @@ Goto File with curser then press gf to goto file. Ctrl+o to retrun.
 - [latex.md]
 - [neovim_setup.md]
 - [network.md]
+- [python.md]
 - [ssh_config]
 - [ssh.md]
 - [tmux.md]
 - [vim.md]
+
+##### howto command. Add to .zshrc or .bashrc
+alias howto='vim ~/howto/README.md'
 
 ##### add ssh config to the end of ~/.ssh/config file
 '''bash

@@ -1,5 +1,4 @@
-# howToVim
-
+# vim.md
 ##### by Zachery Walter
 - great website for practicing vim navication (here)[https://www.vim-hero.com/]
 - extensive cheat sheet (here)[https://vim.rtorr.com/]
@@ -51,3 +50,6 @@ u undo
 gg go to top of file
 G go to bottom of file
 
+### find replace
+[source](https://linuxize.com/post/vim-find-replace/#:~:text=In%20Vim%2C%20search%20and%20replace,just%20press%20the%20Esc%20key.&text=range%20%2D%20which%20lines%20to%20apply%20the%20command%20to.)
+':[range]s/{pattern}/{replacement}/[flags] [count]'
