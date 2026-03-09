@@ -1,22 +1,32 @@
 # networking commands
+
 iwconfig command shows wireless network interfaces
 sudo iwlist scan COMMAND shows possible wireless networks?
 
-nmcli dev wifi command shows available wifi networks
-'-> requires sudo apt install network-manager
+##### WiFi connection
+(here)[https://askubuntu.com/questions/461825/how-to-connect-to-wifi-from-the-command-line]
+nmcli -> requires sudo apt install network-manager?
+'''bash
+sudo nmcli dev wifi	# show available wifi networks 
+ip link			# list interfaces 
 
-nmap -Pn seems to provide the most information
+#disconnect
+sudo nmcli d disconnect iface <WifiInterface>
 
-to ping a specific port: (examples)
+#connect
+sudo nmcli d wifi connect <WiFiSSID> password <WiFiPassword> iface <WifiInterface>
+'''
+
+##### nmap
+'''bash
+nmap -Pn <ip>	# list open ports on an ip 
 nmap -p 80 example.com
-telnet google.com 80
-(close telnet with command: close)
+'''
 
-netstat <ip> tells you which ports are open for a certain ip/computer
-sudo netstat -tulpn tells you which ports are open on the computer that you are on
+you can ping/nmap with a certain Interface with the -I/-e Attribute
 
-
-ip neighbour shows neighbors to the computer? arp -a is same result
+ip neighbour shows neighbors to the computer?
+arp -a is same result
 `route -n` shows the kernel IP routing table
 `ip route` show does something similar i think
 (tcp-ip_routing)[https://www.ibm.com/docs/en/aix/7.3.0?topic=protocol-tcpip-routing]
@@ -24,10 +34,9 @@ ip neighbour shows neighbors to the computer? arp -a is same result
 Defines a gateway that can forward packets to a specific host on another network.
 Defines a gateway that can forward packets to any of the hosts on a specific network."
 
-Tunnelling:
+##### Tunnelling:
 https://wiki.linuxfoundation.org/networking/tunneling
 https://developers.redhat.com/blog/2019/05/17/an-introduction-to-linux-virtual-interfaces-tunnels#ipip    _tunnel
-
 
 ```bash
 ip tunnel del gre0 //delete a tunnel
@@ -40,8 +49,6 @@ ifconfig ${interface} txqueuelen ${size}
 ifconfig eth1 txqueuelen 10000
 ifconfig eth0 txqueuelen 5000
 
-you can ping with a certain Interface with the -I Attribute
-you can nmap with a certain Interface with the -e Attribute
 
 Networking for Dummies:
 http://www.nortonaudio.com/Ficheiros/1118474082.Netwo.pdf
@@ -66,7 +73,9 @@ sudo netstat -tulpn | grep LISTEN
 left alt < takes you to the top of the command history list
 left alt >   ----"-----     botom        ----"----
 
-setting the date -S
-example: sudo date -s "14 Nov 2017 11:57:00"
+##### set the date
+'''bash
+sudo date -s "14 Nov 2017 11:57:00"
+'''
 
 
