@@ -51,7 +51,6 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 use unmask instead of mask to turn feature back on
 
 
-
 ##### find the differences in two files with
 ```bash
 grep -Fxvf file1 file2
@@ -69,16 +68,6 @@ grep -rnw 'where/to/look' -e 'what_to_look_for'
 shift hashtag on german keyboard ' apostrophe is optional
 
 [from here](https://stackoverflow.com/questions/16956810/find-all-files-containing-a-specific-text-string-on-linux)
-
-##### Storage related comands
-fdisk for seeing partitions (l for list)
-`sudo fdisk -l`
-
-see free/used space and mount position of partitions with 
-`df -h`
-
-see ram storage space
-`free -h` human readable format
 
 ##### Rclone
 instructions [here](https://ucr-research-computing.github.io/Knowledge_Base/how_to_mount_google_drive.html)
