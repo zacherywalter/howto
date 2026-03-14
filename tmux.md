@@ -24,8 +24,8 @@ tmux a -t [name]
 ```
 
 # keyboard shortcuts
-Detach from session shortcut: Ctrl+B then D (lowercase d)
-Switch sessions: Ctrl+B then S (then vim jk for up down)
+Detach from session: Ctrl+B then d
+Switch sessions: Ctrl+B then s (then vim jk for up down)
 Switch Window: Ctrl+B then % (split vert) or ; (split horiz)
 
 ##### scrolling

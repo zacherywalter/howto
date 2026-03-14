@@ -37,3 +37,9 @@ git show HEAD~4:src/main.c
 
 Using git stash, and some weird edge case.
 https://stackoverflow.com/questions/22082307/git-switch-branch-without-discarding-local-changes
+
+##### Size
+'''bash
+# output the size of a github repo in GB
+curl -s https://api.github.com/repos/torvalds/linux | jq '.size' | numfmt --to=iec --from-unit=1024
+'''
