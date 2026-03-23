@@ -8,6 +8,7 @@ everything you might need to know when running python scripts
 conda create --name <my-env>    # create new environment
 conda activate <my-env>         # activate env.
 conda deactivate                # deactivate current env.
+conda remove --name <my-env> --all
 ```
 
 ## import other files into a python file.py
