@@ -2,12 +2,22 @@
 everything you might need to know when running python scripts
 
 ## Environments
+##### install conda linux
+[miniconda install](https://www.anaconda.com/docs/getting-started/miniconda/install/linux-install#curl)
+```bash
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+```
+```
+
 ##### conda
 [conda environment howto](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html)
 ```bash
-conda create --name <my-env>    # create new environment
-conda activate <my-env>         # activate env.
-conda deactivate                # deactivate current env.
+conda create -n <my-env> python=3.12  # create new environment
+conda activate <my-env>               # activate env.
+conda env list                        # list envs.
+conda deactivate                      # deactivate current env.
 conda remove --name <my-env> --all
 ```
 
