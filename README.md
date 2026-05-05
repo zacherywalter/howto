@@ -15,8 +15,11 @@ Goto File with curser then press gf to goto file. Ctrl+o to retrun.
 - [python.md]
 - [ssh_config]
 - [ssh.md]
+- [storage.md]
 - [tmux.md]
 - [vim.md]
+- [vscode.md]
+- [fzf.md]
 
 ##### howto command. Add to .zshrc or .bashrc
 alias howto='vim ~/howto/README.md'

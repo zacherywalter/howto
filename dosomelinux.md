@@ -18,7 +18,10 @@ install
 
 
 ## ubuntu release
-`lsb_release -a`
+```bash
+lsb_release -a
+echo $XDG_SESSION_TYPE  # check for wayland or xwayland
+```
 
 ## Basics
 `cat <FILE>` prints out a file in terminal
