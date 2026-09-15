@@ -21,6 +21,12 @@ conda deactivate                      # deactivate current env.
 conda remove --name <my-env> --all
 ```
 
+[export create environment.yml](https://stackoverflow.com/questions/41274007/anaconda-export-environment-file)
+```bash
+conda env export | grep -v "^prefix: " > environment.yml
+conda env create -f environment.yml
+```
+
 ## import other files into a python file.py
 [source here](https://stackoverflow.com/questions/2349991/how-do-i-import-other-python-files)
 
