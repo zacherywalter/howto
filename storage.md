@@ -3,6 +3,7 @@
 ##### Storage related commands
 '''bash
 sudo fdisk -l       # list partitions
+lsblk               # shorter list of partitions
 df -h               # see mount positions
 free -h             # see ram (human readable)
 
