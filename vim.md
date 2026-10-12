@@ -53,3 +53,7 @@ G go to bottom of file
 ### find replace
 [source](https://linuxize.com/post/vim-find-replace/#:~:text=In%20Vim%2C%20search%20and%20replace,just%20press%20the%20Esc%20key.&text=range%20%2D%20which%20lines%20to%20apply%20the%20command%20to.)
 ':[range]s/{pattern}/{replacement}/[flags] [count]'
+
+### consequetive columns of numbers
+Start a blockwise select by pressing Ctrl-V. Move the cursor down to select the first column of zeros,
+then press g Ctrl-A.
