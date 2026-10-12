@@ -16,7 +16,6 @@ now you can `cargo install ...`
 install
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
 
-
 ## ubuntu release
 ```bash
 lsb_release -a
@@ -25,6 +24,24 @@ echo $XDG_SESSION_TYPE  # check for wayland or xwayland
 
 ## Basics
 `cat <FILE>` prints out a file in terminal
+
+```bash
+lscpu		# show cpu stats
+htop		# apt install htop, cpu performance/load
+```
+
+## sysbench
+run a system benchmark with 
+[sysbench](https://askubuntu.com/questions/634513/cpu-benchmarking-utility-for-linux)
+```bash
+sudo apt install sysbench		# install
+sysbench cpu run			# single thread benchmark
+sysbench --threads="$(nproc)" cpu run	# all cores benchmark
+```
+[cpu comparison](https://www.cpubenchmark.net/compare/5138vs3425vs3042/AMD-Ryzen-7-7735HS-vs-Intel-i7-9750H-vs-Intel-i5-8250U)
+22130 cel laptop  = AMD-Ryzen-7-7735HS
+10540 macbook pro = Intel-i7-9750H
+5777  hp probook  = Intel-i5-8250U
 
 ##### File Permissions
 short explanation of setting file permissions (here)[https://gps.uml.edu/tutorials/unix-linux/unix/chmod.htm#:~:text=The%20%22chmod%22%20command%20modifies%20the,search%20permissions%20of%20specified%20directories.&text=%5Bwho%5D%20refers%20to%20who%20you,%3A%20read%2C%20write%20or%20execute.]

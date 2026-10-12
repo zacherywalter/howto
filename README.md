@@ -1,6 +1,6 @@
 # howto
 My personal collection of instructions for general and specific configuring.
-Goto File with curser then press gf to goto file. Ctrl+o to retrun.
+Goto File with curser (jk) then press gf to goto file. Ctrl+o to retrun.
 
 ##### howto file list as of 11.12.2025
 - [README.md]
