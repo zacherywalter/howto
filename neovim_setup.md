@@ -21,16 +21,15 @@ i think, source ~/.zshrc reinits the .zshrc file
 [GitHub - susam/uncap: Map Caps Lock to Escape or any key to any key](https://github.com/susam/uncap#windows-scancode-map-registry-value)
 
 Reg-edit Scancode Map to edit:
-
+add new binary value with name Scancode Map and value ...
 ```
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
 "Scancode Map"=hex: 00,00,00,00,00,00,00,00,
                     03,00,00,00,01,00,3a,00,
                     3a,00,01,00,00,00,00,00
 ```
-
+sharpkey for windows can be used to update registry automaticaly
 esc key is: 0x0100
-
 caps key is: 0x3a00
 
 ##### Setting up neovim plugins
