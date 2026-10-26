@@ -4,7 +4,6 @@ Goto File with curser (jk) then press gf to goto file. Ctrl+o to retrun.
 
 ##### howto file list as of 11.12.2025
 - [README.md]
-- [zacheryserver/README.md]
 - [cmake.md]
 - [dosomelinux.md]
 - [fonts.md]
