@@ -34,6 +34,9 @@ arp -a is same result
 Defines a gateway that can forward packets to a specific host on another network.
 Defines a gateway that can forward packets to any of the hosts on a specific network."
 
+##### Useful Networking Resources
+ip command [cheat sheet](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)
+
 ##### Tunnelling:
 https://wiki.linuxfoundation.org/networking/tunneling
 https://developers.redhat.com/blog/2019/05/17/an-introduction-to-linux-virtual-interfaces-tunnels#ipip    _tunnel

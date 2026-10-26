@@ -4,6 +4,7 @@ Goto File with curser (jk) then press gf to goto file. Ctrl+o to retrun.
 
 ##### howto file list as of 11.12.2025
 - [README.md]
+- [zacheryserver/README.md]
 - [cmake.md]
 - [dosomelinux.md]
 - [fonts.md]
@@ -18,12 +19,13 @@ Goto File with curser (jk) then press gf to goto file. Ctrl+o to retrun.
 - [ssh.md]
 - [storage.md]
 - [tmux.md]
+- [ubuntu_setup.md]
 - [vim.md]
 - [vscode.md]
 - [fzf.md]
 
 ##### howto command. Add to .zshrc or .bashrc
-alias howto='vim ~/howto/README.md'
+alias howto='vim ~/scripts/howto/README.md'
 
 ##### add ssh config to the end of ~/.ssh/config file
 '''bash
