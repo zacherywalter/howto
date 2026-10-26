@@ -4,7 +4,7 @@
 sudo dpkg -i google-chrome-stable_current_amd64
 ```
 
-##### set power options
+#y.#### set power options
 
 ##### set background
 
