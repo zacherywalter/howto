@@ -55,13 +55,15 @@ ls -l
 ```
 use -a to list hidden files
 
-##### crontab for jobs
+##### cron jobs with crontab
 config crontab file with:
 ```bash
 crontab -e
+*/30 * * * * # repeat job every 30 mins
 ```
 ```bash
 sleep 15 && sudo click --dpdk -- /home/ubuntu/click/Demonstrator.click
+*/30 * * * * /usr/bin/rclone bisync ~/google-drive gdrive: --backup-dir1 ~/google-trash --log-file ~/.rclone-bisync.log --log-level DEBUG
 ```
 
 ##### keep ubuntu from sleeping
