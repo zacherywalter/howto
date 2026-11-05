@@ -61,3 +61,10 @@ G go to bottom of file
 ### consequetive columns of numbers
 Start a blockwise select by pressing Ctrl-V. Move the cursor down to select the first column of zeros,
 then press g Ctrl-A.
+
+### registers / copy to clipboard
+Registers can be addressed before the command with "<register>.
+For example copy a line to the `a` register with `"ayy`.
+[source](https://stackoverflow.com/questions/3961859/how-to-copy-to-clipboard-in-vim)
+Make sure vim-gtk3 is installed.
+The system clipboard is the `+` register.
